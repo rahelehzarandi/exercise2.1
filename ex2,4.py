@@ -1,0 +1,8 @@
+print("Please enter 3 integer number:")
+num1=int(input())
+num2=int(input())
+num3=int(input())
+sum1=(num3+num2+num1)
+average=float((num3+num2+num1)//3)
+product=(num3*num2*num1)
+print(f"the sum is:{sum1}  ,the product is:{product},  the average is:{average}")
