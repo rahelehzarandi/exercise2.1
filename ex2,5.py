@@ -9,4 +9,5 @@ pound2=pound*32*13.3
 talent2=talent*20*32*13.3
 gram=lot2+pound2+talent2
 kilogram=gram//1000
-print(f"{kilogram} kilograms, {gram} grams")
+gram2=gram%1000
+print(f"{kilogram} kilograms, {gram2} grams")
